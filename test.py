@@ -8,3 +8,4 @@ class greet:
 
 obj=greet
 obj.greet()
+print("hello")
