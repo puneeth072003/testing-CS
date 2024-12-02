@@ -1,4 +1,4 @@
-import random
+from test import square
 
-print(random.randint(0,5))
-print("Hi")
+def calculate_square_area(side_length):
+    return square(side_length)
