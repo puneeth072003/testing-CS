@@ -1,6 +1,11 @@
 print("hello world")
 
-c=1
-print(c)
-
 print("CODESOURCERER")
+
+class greet:
+    def greet():
+        print("hello world")
+
+obj=greet
+obj.greet()
+print("hello")
