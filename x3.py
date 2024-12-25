@@ -1,4 +1,4 @@
-from z2 import combinations
+from x2 import combinations
 
 n = 5
 r = 2
