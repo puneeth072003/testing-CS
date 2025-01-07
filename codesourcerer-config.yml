@@ -1,0 +1,22 @@
+configuration:
+  test-directory: "tests/"
+  comments: "on"
+  testing-branch: "main"
+  testing-framework: "pytest"
+  water-mark: "on"
+
+# logging:
+#   level: "info"
+#   format: "json"
+#   enable-file-logging: true
+#   log-file: "app.log"
+
+# notifications:
+#   PR-comments: "enabled"
+
+environment:
+  python-version: "3.10"
+
+caching:
+  enabled: false
+  redis-caching: "off"
