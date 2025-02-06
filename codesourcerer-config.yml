@@ -1,22 +1,18 @@
 configuration:
-  test-directory: "tests/"
-  comments: "on"
-  testing-branch: "main"
+  test-directory: "unit-tests/"
+  comments: false
+  testing-branch: "testing"
   testing-framework: "pytest"
-  water-mark: "on"
-
-# logging:
-#   level: "info"
-#   format: "json"
-#   enable-file-logging: true
-#   log-file: "app.log"
-
-# notifications:
-#   PR-comments: "enabled"
+  water-mark: false
 
 environment:
-  python-version: "3.10"
+  python-version: 3.10
 
 caching:
   enabled: false
-  redis-caching: "off"
+  redis-caching: false
+
+extras:
+  indent-type: "space"
+  indent-size: "2"
+  trailing-comma: "on"
