@@ -14,5 +14,5 @@ caching:
 
 extras:
   indent-type: "space"
-  indent-size: "2"
-  trailing-comma: "on"
+  indent-size: 2
+  trailing-comma: "on"
