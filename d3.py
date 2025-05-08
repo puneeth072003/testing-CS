@@ -1,4 +1,4 @@
-from s2 import combinations
+from d2 import combinations
 
 n = 5
 r = 2
