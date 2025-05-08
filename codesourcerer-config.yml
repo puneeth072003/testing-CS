@@ -1,5 +1,5 @@
 configuration:
-  test-directory: "unit-tests/"
+  test-directory: "tests/"
   comments: false
   testing-branch: "testing"
   testing-framework: "pytest"
@@ -9,10 +9,10 @@ environment:
   python-version: 3.10
 
 caching:
-  enabled: false
-  redis-caching: false
+  enabled: true
+  redis-caching: true
 
 extras:
   indent-type: "space"
-  indent-size: 2
+  indent-size: "2"
   trailing-comma: "on"
